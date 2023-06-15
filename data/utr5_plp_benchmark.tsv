@@ -1,0 +1,93 @@
+variant	gene_name	transcript_id	clinvar_transcript_id	clinvar_name_tsv	proposed_mechanism	class	gnomad_af
+chr1:9943503:C:T	NMNAT1	NM_022787.3	NM_022787.4	NM_022787.4(NMNAT1):c.-69C>T		1	
+chr1:42958758:C:T	SLC2A1	NM_006516.2	NM_006516.4	NM_006516.4(SLC2A1):c.-107G>A	Translation: introduction of novel upstream start codon	1	
+chr1:112956192:C:T	SLC16A1	NM_003051.3	NM_003051.4	NM_003051.4(SLC16A1):c.-202G>A	Transcription: altered promoter activity	1	
+chr1:145927445:C:T	RBM8A	NM_005105.4	NM_005105.5	NM_005105.5(RBM8A):c.-19G>A		1	7.41E-06
+chr1:145927447:C:T	RBM8A	NM_005105.4	NM_005105.5	NM_005105.5(RBM8A):c.-21G>A	Transcription: altered promoter activity	1	1.79E-02
+chr2:25164783:G:T	POMC	NM_000939.3	NM_000939.4	NM_000939.4(POMC):c.-11C>A	Translation: introduction of novel upstream start codon	1	2.84E-05
+chr2:202376528:GC:AT	BMPR2	NM_001204.6	NM_001204.7	NM_001204.7(BMPR2):c.-947_-946delinsAT	Translation: introduction of novel upstream start codon	1	
+chr3:10141769:AGCGCGCACGCAGCTCCGCCCC:A	VHL	NM_000551.3	NM_000551.3	NM_000551.3(VHL):c.-75_-55del	Transcription: altered promoter activity	1	
+chr3:36993521:C:A	MLH1	NM_000249.3	NM_000249.4	NM_000249.4(MLH1):c.-27C>A	Transcription: altered promoter methylation	1	
+chr3:49171662:C:T	KLHDC8B	NM_173546.2	NM_173546.3	NM_173546.3(KLHDC8B):c.-158C>T		1	5.35E-03
+chr3:93973788:G:A	PROS1	NM_000313.3	NM_000313.4	NM_000313.4(PROS1):c.-39C>T	Translation: introduction of novel upstream start codon	1	
+chr3:184376290:C:A	THPO	NM_000460.3	NM_000460.4	NM_000460.4(THPO):c.-31G>T	Translation: impact on existing regulatory uORF	1	
+chr3:184376305:TC:T	THPO	NM_000460.3	NM_000460.4	NM_000460.4(THPO):c.-47del	Translation: impact on existing regulatory uORF	1	
+chr5:14871458:G:A	ANKH	NM_054027.5	NM_054027.6	NM_054027.6(ANKH):c.-11C>T	Translation: introduction of novel upstream start codon	1	
+chr5:36876937:CC:A	NIPBL	NM_133433.3	NM_133433.4	NM_133433.4(NIPBL):c.-321_-320delinsA		1	
+chr5:88823796:G:A	MEF2C	NM_002397.4	NM_002397.5	NM_002397.5(MEF2C):c.-8C>T	Translation: introduction of novel upstream start codon	1	
+chr5:88823814:G:A	MEF2C	NM_002397.4	NM_002397.5	NM_002397.5(MEF2C):c.-26C>T	Translation: introduction of novel upstream start codon	1	
+chr5:88823854:T:A	MEF2C	NM_002397.4	NM_002397.5	NM_002397.5(MEF2C):c.-66A>T	Translation: introduction of novel upstream start codon	1	
+chr8:22130605:T:C	HR	NM_005144.4	NM_005144.5	NM_005144.5(HR):c.-218A>G	Translation: impact on existing regulatory uORF	1	
+chr8:22130636:G:C	HR	NM_005144.4	NM_005144.5	NM_005144.5(HR):c.-249C>G	Translation: impact on existing regulatory uORF	1	
+chr8:22130702:G:A	HR	NM_005144.4	NM_005144.5	NM_005144.5(HR):c.-315C>T	Translation: impact on existing regulatory uORF	1	
+chr8:22130707:A:G	HR	NM_005144.4	NM_005144.5	NM_005144.5(HR):c.-320T>C	Translation: impact on existing regulatory uORF	1	
+chr8:22130707:A:T	HR	NM_005144.4	NM_005144.5	NM_005144.5(HR):c.-320T>A	Translation: impact on existing regulatory uORF	1	
+chr8:41797609:TCA:T	ANK1	NM_000037.3	NM_000037.4	NM_000037.4(ANK1):c.-73_-72del	Transcription: altered promoter activity	1	
+chr9:37422747:GC:AT	GRHPR	NM_012203.1	NM_012203.2	NM_012203.2(GRHPR):c.-4_-3delinsAT	Translation: introduction of novel upstream start codon	1	
+chr9:127854482:G:A	ENG	NM_001114753.2	NM_001114753.3	NM_001114753.3(ENG):c.-127C>T	Translation: introduction of novel upstream start codon	1	
+chr10:27100452:A:C	ANKRD26	NM_014915.2	NM_014915.3	NM_014915.3(ANKRD26):c.-126T>G		1	
+chr10:27100452:A:G	ANKRD26	NM_014915.2	NM_014915.3	NM_014915.3(ANKRD26):c.-126T>C		1	
+chr10:27100453:T:A	ANKRD26	NM_014915.2	NM_014915.3	NM_014915.3(ANKRD26):c.-127A>T	Transcription: altered promoter activity	1	
+chr10:27100453:T:C	ANKRD26	NM_014915.2	NM_014915.3	NM_014915.3(ANKRD26):c.-127A>G	Transcription: altered promoter activity	1	
+chr10:27100453:T:G	ANKRD26	NM_014915.2	NM_014915.3	NM_014915.3(ANKRD26):c.-127A>C	Transcription: altered promoter activity	1	
+chr10:27100454:C:A	ANKRD26	NM_014915.2	NM_014915.3	NM_014915.3(ANKRD26):c.-128G>T		1	
+chr10:27100454:C:G	ANKRD26	NM_014915.2	NM_014915.3	NM_014915.3(ANKRD26):c.-128G>C		1	
+chr10:27100454:C:T	ANKRD26	NM_014915.2	NM_014915.3	NM_014915.3(ANKRD26):c.-128G>A	Transcription: altered promoter activity	1	
+chr10:27100460:C:T	ANKRD26	NM_014915.2	NM_014915.3	NM_014915.3(ANKRD26):c.-134G>A		1	
+chr10:125823205:A:G	UROS	NM_000375.2	NM_000375.3	NM_000375.3(UROS):c.-203T>C	Transcription: altered promoter activity	1	
+chr11:299504:G:A	IFITM5	NM_001025295.2	NM_001025295.3	NM_001025295.3(IFITM5):c.-14C>T	Translation: introduction of novel upstream start codon	1	
+chr11:5227039:G:C	HBB	NM_000518.4	NM_000518.5	NM_000518.5(HBB):c.-18C>G	Transcription: altered promoter activity	1	
+chr11:5227050:C:T	HBB	NM_000518.4	NM_000518.5	NM_000518.5(HBB):c.-29G>A	Translation: introduction of novel upstream start codon	1	3.55E-06
+chr11:5227071:T:G	HBB	NM_000518.4	NM_000518.5	NM_000518.5(HBB):c.-50A>C		1	9.26E-05
+chr11:31806913:TAA:T	PAX6	NM_001604.5	NM_001368894.2	NM_001368894.2(PAX6):c.-118_-117del	Translation: impact on existing regulatory uORF	1	
+chr11:31806918:T:TC	PAX6	NM_001604.5	NM_001368894.2	NM_001368894.2(PAX6):c.-122dup	Translation: impact on existing regulatory uORF	1	
+chr11:61967589:T:A	FTH1	NM_002032.2	NM_002032.3	NM_002032.3(FTH1):c.-164A>T	Translation: altered mRNA-protein interaction	1	
+chr11:88337727:G:T	CTSC	NM_001814.5	NM_001814.6	NM_001814.6(CTSC):c.-55C>A	Transcription: altered promoter activity	1	1.12E-05
+chr12:12717383:CCCTT:C	CDKN1B	NM_004064.4	NM_004064.5	NM_004064.5(CDKN1B):c.-454_-451del	Translation: impact on existing regulatory uORF	1	
+chr17:43125358:T:A	BRCA1	NM_007294.3	NM_007294.4	NM_007294.4(BRCA1):c.-107A>T	Transcription: altered promoter methylation	1	
+chr19:48965340:G:A	FTL	NM_000146.3	NM_000146.4	NM_000146.4(FTL):c.-168G>A	Translation: altered mRNA-protein interaction	1	
+chr19:48965340:G:C	FTL	NM_000146.3	NM_000146.4	NM_000146.4(FTL):c.-168G>C	Translation: altered mRNA-protein interaction	1	
+chr19:48965340:G:T	FTL	NM_000146.3	NM_000146.4	NM_000146.4(FTL):c.-168G>T	Translation: altered mRNA-protein interaction	1	
+chr19:48965341:C:T	FTL	NM_000146.3	NM_000146.4	NM_000146.4(FTL):c.-167C>T	Translation: altered mRNA-protein interaction	1	
+chr19:48965344:C:A	FTL	NM_000146.3	NM_000146.4	NM_000146.4(FTL):c.-164C>A	Translation: altered mRNA-protein interaction	1	
+chr19:48965344:C:T	FTL	NM_000146.3	NM_000146.4	NM_000146.4(FTL):c.-164C>T	Translation: altered mRNA-protein interaction	1	
+chr19:48965347:C:G	FTL	NM_000146.3	NM_000146.4	NM_000146.4(FTL):c.-161C>G	Translation: altered mRNA-protein interaction	1	
+chr19:48965347:C:T	FTL	NM_000146.3	NM_000146.4	NM_000146.4(FTL):c.-161C>T	Translation: altered mRNA-protein interaction	1	
+chr19:48965348:A:G	FTL	NM_000146.3	NM_000146.4	NM_000146.4(FTL):c.-160A>G	Translation: altered mRNA-protein interaction	1	
+chr19:48965351:G:A	FTL	NM_000146.3	NM_000146.4	NM_000146.4(FTL):c.-157G>A	Translation: altered mRNA-protein interaction	1	
+chr19:48965359:G:C	FTL	NM_000146.3	NM_000146.4	NM_000146.4(FTL):c.-149G>C	Translation: altered mRNA-protein interaction	1	
+chr20:6122775:T:C	FERMT1	NM_017671.4	NM_017671.5	NM_017671.5(FERMT1):c.-20A>G	Transcription: altered promoter activity	1	
+chr20:25407761:A:G	GINS1	NM_021067.4	NM_021067.5	NM_021067.5(GINS1):c.-60A>G	Transcription: splicing	1	
+chr20:25407773:C:G	GINS1	NM_021067.4	NM_021067.5	NM_021067.5(GINS1):c.-48C>G	Transcription: splicing	1	3.65E-06
+chr22:20982334:T:A	LZTR1	NM_006767.3	NM_006767.4	NM_006767.4(LZTR1):c.-38T>A	Translation: introduction of novel upstream start codon	1	6.41E-06
+chr22:40346510:T:C	ADSL	NM_000026.3	NM_000026.4	NM_000026.4(ADSL):c.-49T>C	Transcription: altered promoter activity	1	4.59E-06
+chrX:630879:G:A	SHOX	NM_000451.3	NM_000451.4	NM_000451.4(SHOX):c.-19G>A	Transcription: splicing	1	7.34E-06
+chrX:70133891:TAT:AA	IGBP1	NM_001551.2	NM_001551.3	NM_001551.3(IGBP1):c.-57_-55delinsAA		1	
+chrX:71223249:C:T	GJB1	NM_000166.5	NM_000166.6	NM_000166.6(GJB1):c.-103C>T		1	
+chrX:71223335:G:A	GJB1	NM_000166.5	NM_000166.6	NM_000166.6(GJB1):c.-17G>A	Transcription: splicing	1	
+chrX:139530743:T:C	F9	NM_000133.3	NM_000133.4	NM_000133.4(F9):c.-22T>C		1	
+chrX:139530748:A:G	F9	NM_000133.3	NM_000133.4	NM_000133.4(F9):c.-17A>G	Transcription: altered promoter activity	1	
+chr10:125823033:C:A	UROS	NM_000375.2	NM_000375.3			0	0.0116475
+chr10:125823187:C:T	UROS	NM_000375.2	NM_000375.3			0	0.411473
+chr10:125823221:G:T	UROS	NM_000375.2	NM_000375.3			0	0.417496
+chr3:184376395:A:G	THPO	NM_000460.3	NM_000460.4			0	0.541901
+chr11:299517:T:C	IFITM5	NM_001025295.2	NM_001025295.3			0	0.0132015
+chr11:88337690:A:G	CTSC	NM_001814.5	NM_001814.6			0	0.0904032
+chr12:12717761:T:C	CDKN1B	NM_004064.4	NM_004064.5			0	0.699866
+chr8:22130720:A:G	HR	NM_005144.4	NM_005144.5			0	0.0159715
+chr8:22131002:A:C	HR	NM_005144.4	NM_005144.5			0	0.651867
+chr1:42958848:T:G	SLC2A1	NM_006516.2	NM_006516.4			0	0.231605
+chr1:42958841:C:G	SLC2A1	NM_006516.2	NM_006516.4			0	0.0163897
+chr10:27100385:C:T	ANKRD26	NM_014915.2	NM_014915.3			0	0.074911
+chr10:27100466:G:C	ANKRD26	NM_014915.2	NM_014915.3			0	0.0576738
+chr20:6122783:A:G	FERMT1	NM_017671.4	NM_017671.5			0	0.0286857
+chr20:6122860:G:C	FERMT1	NM_017671.4	NM_017671.5			0	0.29761
+chr20:6122940:T:C	FERMT1	NM_017671.4	NM_017671.5			0	0.168938
+chr5:14871451:C:T	ANKH	NM_054027.5	NM_054027.6			0	0.0536745
+chr5:36876843:T:C	NIPBL	NM_133433.3	NM_133433.4			0	0.353459
+chr5:36876850:G:C	NIPBL	NM_133433.3	NM_133433.4			0	0.0552004
+chr5:36876847:T:C	NIPBL	NM_133433.3	NM_133433.4			0	0.303505
+chr5:36876834:T:C	NIPBL	NM_133433.3	NM_133433.4			0	0.325958
+chr5:36876830:G:C	NIPBL	NM_133433.3	NM_133433.4			0	0.300149
+chr3:49171625:C:A	KLHDC8B	NM_173546.2	NM_173546.3			0	0.101059
+chr3:49171624:T:A	KLHDC8B	NM_173546.2	NM_173546.3			0	0.101166
