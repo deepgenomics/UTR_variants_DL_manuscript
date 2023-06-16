@@ -140,6 +140,7 @@ Description of each script is here:
 * `04_phylop_annotations.py`
   * Annotates with PhyloP scores from the downloaded bigwig file
   * annotated variants are stored in an output .tsv
-* `05_analyze_predictors.ipynb`
-  * Post-processes predictions and creates the figures for the paper
-
+* `05a_analyze_predictors.ipynb`
+  * Post-processes predictions and creates figures 3, S2-S6 for the paper
+* `05b_UTRManuscriptFigures.Rmd`
+  * Creates Figures 2 and S1 for the paper

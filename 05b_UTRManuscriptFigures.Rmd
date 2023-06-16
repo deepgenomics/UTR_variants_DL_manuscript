@@ -1,0 +1,92 @@
+---
+title: "UTR Manuscript Figures"
+output: html_document
+date: "2023-05-17"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(cowplot)
+library(gridExtra)
+library(forcats)
+```
+
+```{r}
+### DATA SET-UP
+directory = "data/"
+
+utr3 = read.csv(file = paste(directory,"TableS1_3UTR.csv", sep=""))
+utr3 = data.frame(cbind(rep("3' UTR", nrow(utr3)), utr3))
+names(utr3)[1] = "UTR"
+
+utr5 = read.csv(file = paste(directory,"TableS2_5UTR.csv", sep=""))
+utr5 = data.frame(cbind(rep("5' UTR", nrow(utr5)), utr5))
+names(utr5)[1] = "UTR"
+
+utr = data.frame(rbind(utr3,utr5))
+
+### FIGURE 2: variant counts by clinical significance
+fig.2a = ggplot(utr[utr$inclusion == "Include",], aes(fill=clinvar_clinical_significance, x=UTR)) + 
+    geom_bar(position = "stack")+
+    theme(panel.border = element_blank(), panel.background = element_blank(), 
+        axis.line = element_line(colour = "black"), text=element_text(colour="black", size=7),
+        legend.position = "bottom", legend.key.size = unit(0.2,"cm"))+
+  labs(
+    x = "Region",
+    y = "Number of Variants",
+    fill = "Classification (ClinVar)")+
+  scale_fill_manual(values = c("black","grey38", "grey"))+
+    scale_y_continuous(limits = c(0, 120), breaks = seq(0, 120, by = 20))
+
+fig.2b = ggplot(utr[utr$inclusion == "Include",], aes(fill=classification, x=UTR)) + 
+    geom_bar(position = "stack")+
+  theme(panel.border = element_blank(), panel.background = element_blank(), 
+        axis.line = element_line(colour = "black"), text=element_text(colour="black", size=7),
+        legend.position = "bottom", legend.key.size = unit(0.2,"cm"))+
+  labs(
+    x = "Region",
+    y = "Number of Variants",
+    fill = "Classification (present study)")+
+  scale_fill_manual(values = c("black","grey38","grey88"))+
+  scale_y_continuous(limits = c(0, 120), breaks = seq(0, 120, by = 20))
+
+jpeg("plots/UTRManuscript_Figure2.jpeg", width = 6.5, height =3, units="in", res=1000)
+plot = plot_grid(fig.2a, fig.2b,  nrow = 1, rel_widths = c(1,1),labels = c("A","B"))
+print(plot)
+dev.off()
+
+### FIGURE S1
+length(unique(utr3[utr3$inclusion == "Include",]$appris_principal_gene))
+length(unique(utr5[utr5$inclusion == "Include",]$appris_principal_gene))
+
+
+fig.s1a = ggplot(utr[utr$UTR == "3' UTR" & utr$inclusion == "Include",], aes(x= forcats::fct_infreq(appris_principal_gene)))+
+    geom_bar(fill = "black")+
+  theme(panel.border = element_blank(), panel.background = element_blank(), 
+        axis.line = element_line(colour = "black"), text=element_text(colour="black", size=7),
+        legend.position = "bottom", legend.key.size = unit(0.2,"cm"),
+        axis.text.x = element_text(angle=45, hjust = 1))+
+  labs(
+    x = "Gene",
+    y = "Number of 3' UTR Variants")+
+  scale_fill_manual(values = "black")+
+  scale_y_continuous(limits = c(0, 20), breaks = seq(0, 20, by = 5), expand = c(0.005,0))
+fig.s1b = ggplot(utr[utr$UTR == "5' UTR" & utr$inclusion == "Include",], aes(x= forcats::fct_infreq(appris_principal_gene))) + 
+    geom_bar(fill = "black")+
+  theme(panel.border = element_blank(), panel.background = element_blank(), 
+        axis.line = element_line(colour = "black"), text=element_text(colour="black", size=7),
+        legend.position = "bottom", legend.key.size = unit(0.2,"cm"),
+        axis.text.x = element_text(angle=45, hjust = 1))+
+  labs(
+    x = "Gene",
+    y = "Number of 5' UTR Variants")+
+  scale_fill_manual(values = "black")+
+  scale_y_continuous(limits = c(0, 20), breaks = seq(0, 20, by = 5), expand = c(0.005,0))
+
+jpeg("plots/UTRManuscript_FigureS1.jpeg", width = 6.5, height =6, units="in", res=1000)
+plot = plot_grid(fig.s1a, fig.s1b,  nrow = 2, rel_widths = c(1,1),labels = c("A","B"))
+print(plot)
+dev.off()
+```
+
