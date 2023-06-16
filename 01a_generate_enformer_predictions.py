@@ -13,7 +13,7 @@ import tensorflow as tf
 import tensorflow_hub as hub
 import pandas as pd
 
-from .utils import FastaStringExtractor, reverse_compliment, variant_generator, one_hot_encode
+from utils import FastaStringExtractor, reverse_compliment, variant_generator, one_hot_encode
 
 
 FASTA_FILE = 'data/hg38.fa'
