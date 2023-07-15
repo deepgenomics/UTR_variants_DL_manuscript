@@ -1,14 +1,18 @@
 # A curated census of pathogenic and likely pathogenic UTR variants and evaluation of deep learning models for variant effect prediction
 
+Authors: *Emma Bohn, Tammy Lau, Omar Wagih, Tehmina Masud, Daniele Merico*
+
+Preprint available now at medrxiv: https://doi.org/10.1101/2023.07.10.23292474
+
 This repository accompanies our publication by making public the code that runs the
 deep learning-based artificial intelligence (DL-AI) models to generate variant effect predictions
 and the code to generate the figures in the paper.
 
 The models are:
 
-* Saluki - mRNA stability (3' UTR)
-* Enformer - transcription (5' UTR)
-* FramePoolCombined - ORF recognition by the translation machinery  (5' UTR)
+* [Saluki](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02811-x) - mRNA stability (3' UTR)
+* [Enformer](https://www.nature.com/articles/s41592-021-01252-x) - transcription (5' UTR)
+* [FramePoolCombined](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008982) - ORF recognition by the translation machinery  (5' UTR)
 
 
 ## To reproduce
