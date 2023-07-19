@@ -33,7 +33,6 @@ $ wget -O - http://hgdownload.cse.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz | 
 $ samtools faidx hg38.fa
 
 # most recent RefSeq annotations
-# see https://linear.app/dg-eng/issue/TID-54#comment-a86a90a9 for more details
 $ wget http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/genes/hg38.ncbiRefSeq.gtf.gz
 
 # UCSC phyloP 100way annotations
